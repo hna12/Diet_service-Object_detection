@@ -1,5 +1,5 @@
 # Diet_service-Object_detection
-alpaco Object detection mini project
+Alpaco Object detection mini project
 ### Introduction
 - 주제선정 이유
 
