@@ -23,12 +23,16 @@ Alpaco Object detection mini project
 - MS COCO dataset으로 pretrained된 weight를 갖고 전이학습
 
 ### 🥗Results
-1. single food item images
+1. single food item images </br>
 ![화면 캡처 2022-10-21 132141](https://user-images.githubusercontent.com/61971952/197111491-faa4f2a5-7084-4fa9-8969-5b4f2bea136f.png)
-2. multi food item images
+2. multi food item images </br>
 ![multi](https://user-images.githubusercontent.com/61971952/197111640-57b6a349-492c-4272-adb0-1b199fe1a1c3.png)
-3. detecting food and kcal
+3. detecting food and kcal </br>
 ![칼로리](https://user-images.githubusercontent.com/61971952/197111756-f2d5e2c3-f166-497c-9103-508b9a595e7c.png)
 
 ### 🥗Discussion
-
+- 클래스 하나당 충분히 학습을 시키켜야했는데 클래스 수가 너무 많아 그러지 못해서 정확도가 좀 떨어졌다.
+- realtime이지만 정확도가 낮은 YOLO가 아닌 정확도가 좀 더 좋은 2stage방식을 사용하면 정확도가 더 높아질 수 있지 않을까 싶다.
+- 앞으로의 활용가능성: </br>
+① 오늘 하루 먹은 음식에서 부족한 영양소, 칼로리에 대한 안내, 맞춤형 식단 추천에 쓰일 수 있을 것.
+② 최근 삼성에서 나온 AI 냉장고인 비스포크는 안에 있는 식재료를 스스로 파악해 맞춤형 식단을 추천하는 등의 기능을 가짐. 이와 연결해 그날 아침과 점심으로 먹었던 것들 중 단백질과 비타민이 적정량보다 덜 먹었다면 이를 보완할 수 있는 정밀한 개인 맞춤형 식단을 제공하는 것이 가능할 것.
