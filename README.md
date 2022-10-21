@@ -14,6 +14,7 @@ Alpaco Object detection mini project
 
 ### 🥗Materials and Methods
 #### Dataset
+- http://foodcam.mobi/
 - 12,000개의 이미지
 - 총 100개의 class
 - 한식, 일식, 양식등의 데이터로 이루어짐
