@@ -13,13 +13,13 @@ Alpaco Object detection mini project
 - 음식사진을 찍으면 음식객체를 인식하는 모델을 만들어 그에 해당되는 음식 종류와 칼로리, 영양정보가 나오게 하는 보다 편리하고 직관적인 방법으로 식단관리를 할 수 있는 방안을 고려.
 
 ### 🥗Materials and Methods
-#### Dataset
+1. Dataset
 - http://foodcam.mobi/
 - 12,000개의 이미지
 - 총 100개의 class
 - 한식, 일식, 양식등의 데이터로 이루어짐
 - multiple food-item, single food-item으로 구성
-#### Methods
+2. Methods
 - stage 1의 YOLOv4 모델 사용
 - MS COCO dataset으로 pretrained된 weight를 갖고 전이학습
 
