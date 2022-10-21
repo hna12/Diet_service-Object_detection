@@ -24,11 +24,11 @@ Alpaco Object detection mini project
 - MS COCO dataset으로 pretrained된 weight를 갖고 전이학습
 
 ### 🥗Results
-1. single food item images </br>
+FIGURE1) single food item images </br>
 ![화면 캡처 2022-10-21 132141](https://user-images.githubusercontent.com/61971952/197111491-faa4f2a5-7084-4fa9-8969-5b4f2bea136f.png)
-2. multi food item images </br>
+FIGURE2) multi food item images </br>
 ![multi](https://user-images.githubusercontent.com/61971952/197111640-57b6a349-492c-4272-adb0-1b199fe1a1c3.png)
-3. detecting food and kcal </br>
+FIGURE3) detecting food and kcal </br>
 ![칼로리](https://user-images.githubusercontent.com/61971952/197111756-f2d5e2c3-f166-497c-9103-508b9a595e7c.png)
 
 ### 🥗Discussion
